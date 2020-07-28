@@ -2999,13 +2999,21 @@ ul.submenu {
 ul.submenu .nav-item a span {
   padding-left: 10px; }
 
+header {
+  background-color: #F4BD2D;
+  display: flex;
+  justify-content: center; }
+  header img {
+    max-width: 100%;
+    height: auto; }
+
 .timeline__wrapper {
   background-color: white; }
 
 .timeline__header {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   margin-bottom: 2rem; }
   .timeline__header__logo {
