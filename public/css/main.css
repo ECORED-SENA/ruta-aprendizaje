@@ -3093,6 +3093,8 @@ ul.submenu .nav-item a span {
         font-size: 20pt;
         font-weight: 600;
         background: rgba(0, 0, 0, 0.17); }
+      .timeline-card-wrapper .timeline-card__head .title-box {
+        margin: 0 0 0 1rem; }
     .timeline-card-wrapper .timeline-card__body {
       padding: 1.5rem;
       background-color: white; }

@@ -8,8 +8,8 @@ const pug = require('gulp-pug');
 const browserSync = require('browser-sync').create();
 
 
-const src = './';
-const pub = './';
+const src = './source';
+const pub = './public';
 
 // VARIABLES
 const paths = {
@@ -46,9 +46,9 @@ gulp.task('pug', done => {
 
 gulp.task("sass", function () {
   return gulp
-    .src("./scss/main.scss")
+      .src(paths.sass.src)
     .pipe(sass().on("error", sass.logError))
-    .pipe(gulp.dest("./css"));
+      .pipe(gulp.dest(paths.sass.dest));
 });
 
 
